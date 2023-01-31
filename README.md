@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/product-preview-card-Vcj2pR-roH)
-- Live Site URL: [live site at Netlify](product-preview-card-eec66b.netlify.app)
+- Live Site URL: [live site at Netlify](https://product-preview-card-eec66b.netlify.app/)
 
 ## My process
 
