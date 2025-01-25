@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 :root {
   --dark-cyan: hsl(158, 36%, 37%);
@@ -10,7 +10,6 @@
 
 // Desktop Breakpoint
 $bp-desktop: 87.5em; //1400px
-
 
 *,
 *::before,
@@ -38,9 +37,8 @@ body {
   justify-content: center;
 }
 
-// Card Styling 
+// Card Styling
 .product {
-
   &__card {
     max-width: 34.3rem;
     display: flex;
@@ -52,28 +50,26 @@ body {
     @media only screen and (min-width: $bp-desktop) {
       max-width: 60rem;
       flex-direction: row;
-      
     }
   }
 
   &__image {
-     width: 34.3rem;
-     height: 24rem;
-     background: url(../images/image-product-mobile.jpg) no-repeat center
-       center/cover;
-     border-top-left-radius: 1rem;
-     border-top-right-radius: 1rem;
-     border-bottom-left-radius: 0;
-    
+    width: 34.3rem;
+    height: 24rem;
+    background: url(../images/image-product-mobile.jpg) no-repeat center
+      center/cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+
     @media only screen and (min-width: $bp-desktop) {
-      width: 33.7rem;
+      width: 30rem;
       height: 45rem;
       background: url(../images/image-product-desktop.jpg) no-repeat center
-      center/cover;
+        center/cover;
       border-bottom-left-radius: 1rem;
       border-top-left-radius: 1rem;
       border-top-right-radius: 0;
-      
     }
   }
 
@@ -93,7 +89,6 @@ body {
     margin-bottom: 2rem;
   }
 
-
   &__title {
     font-family: 'Fraunces', serif;
     line-height: 1;
@@ -107,10 +102,7 @@ body {
     color: var(--dark-grayish-blue);
     margin-bottom: 3rem;
   }
-
-  
 }
-
 
 // Pricing Styling
 .pricing {
@@ -120,7 +112,7 @@ body {
   margin-bottom: 3rem;
 
   &__sale {
-    font-family: "Fraunces", sans-serif;
+    font-family: 'Fraunces', sans-serif;
     font-weight: 700;
     font-size: 3.2rem;
     line-height: 1.2;
@@ -134,7 +126,6 @@ body {
     text-decoration: line-through;
   }
 }
-
 
 // Button Styling
 .btn {
